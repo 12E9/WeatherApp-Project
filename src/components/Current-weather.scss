@@ -1,0 +1,29 @@
+.current-weather{
+    border-radius:7px;
+    display: flex;
+    background:rgb(228, 143, 219) ;
+    padding:10px;
+    justify-content: space-between;
+    &__content{
+        display: flex;
+        align-items: center;
+    }
+    
+    &__temp{
+        font-size:42px;
+    }
+    &__temp,&__description{
+        margin:0;
+
+    }
+    &__description{
+        font-size: 16px;
+    }
+    &__icon{
+        width:150px;
+    }
+    &__feels_like{
+        margin:0;
+        font-size: 14px;
+    }
+}
